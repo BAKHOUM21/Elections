@@ -55,7 +55,7 @@ $bureau = $_SESSION['bureau'];
     <p>prenom : <?php echo strtoupper($prenom) ?></p>
     <p>Commune : <?php echo strtoupper($commune) ?></p>
     <p>Bureau : <?php echo strtoupper($bureau) ?></p>
-    <h2 class="text-center">Selectionnez le candidat à voter</h2>
+    <h2 class="text-center">Selectionnez le candidat pour qui vous votez</h2>
         <?php
        
         include '../modele.php';

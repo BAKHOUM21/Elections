@@ -217,7 +217,7 @@ class Election
                            
                             $query = "INSERT INTO vote (id_electeur,nom_electeur,prenom_electeur,id_candidat,commune,bureau) VALUES ('$idele','$nom','$prenom','$id_candidat','$commune','$bureau')";
                             if ($sql = $this->conn->query($query)) {
-                                // echo "<script>window.location.href = 'index.php';</script>";
+                                 echo "<script>window.location.href = 'http://localhost/Election/index.php';</script>";
                               
                             }else{
                                 echo "<script>alert('votre vote n est pas valider');</script>";
