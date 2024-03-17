@@ -19,14 +19,14 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="http://election/">ACCUEIL <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="http://localhost/Election/">ACCUEIL <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://vote/Admin_Electeur/pages-electeur/inscrire.php">INSCRIPTION</a>
+        <a class="nav-link" href="http://localhost/Election/pages-electeur/inscrire.php">INSCRIPTION</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <button class="btn btn-success my-2 my-sm-0 " href="http://vote/Admin_Electeur/authentifi_admin.php"><a href="http://vote/Admin_Electeur/authentifi_admin.php" class="text-white">CONNECTER</a></button>
+      <button class="btn btn-success my-2 my-sm-0 " href="http://localhost/Election/authentifi_admin.php"><a href="http://Election/authentifi_admin.php" class="text-white">CONNECTER</a></button>
     </form>
   </div>
 </nav>

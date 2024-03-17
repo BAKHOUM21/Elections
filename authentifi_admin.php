@@ -1,6 +1,6 @@
 <?php
- session_start();
- session_destroy();
+ //session_start();
+ //session_destroy();
 ?>
 
 <!DOCTYPE html>
@@ -22,14 +22,14 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="http://election/">ACCUEIL <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="http://localhost/Election/">ACCUEIL <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://vote/Admin_Electeur/pages-electeur/inscrire.php">INSCRIPTION</a>
+        <a class="nav-link" href="http://localhost/Election/pages-electeur/inscrire.php">INSCRIPTION</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <button class="btn btn-success my-2 my-sm-0 " ><a href="http://vote/Admin_Electeur/authentifi_admin.php">CONNECTER</a></button>
+      <button class="btn btn-success my-2 my-sm-0 " ><a href="http://localhost/Election/authentifi_admin.php">CONNECTER</a></button>
     </form>
   </div>
 </nav>
@@ -50,9 +50,9 @@
       
       if ($adminObj->login($newdata)) {
           if (!isset($_SESSION['id'])) {
-              header("Location:pages-admin/espace_admin.php");
+              header("Location:http://Election/pages-admin/espace_admin.php");
           } else {  
-              header("Location:pages-admin/acceuil.php");
+              header("Location:http://Election/pages-admin/acceuil.php");
           }
       }else{
           $error = "Email ou mot de passe incorrect";

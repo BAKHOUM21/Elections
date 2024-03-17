@@ -32,24 +32,24 @@ if(isset($_SESSION['id'])){
         <a class="nav-link" href="#">ACCUEIL</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://vote/Admin_Electeur/pages-admin/listeCandidat.php#">LISTE DES CANDIDATS</a>
+        <a class="nav-link" href="http://localhost/Election/pages-admin/listeCandidat.php#">LISTE DES CANDIDATS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://vote/Admin_Electeur/pages-admin/listeelecteur.php#">LISTE DES ELECTEURS</a>
+        <a class="nav-link" href="http://localhost/Election/pages-admin/listeelecteur.php#">LISTE DES ELECTEURS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://vote/Admin_Electeur/pages-admin/listeVote.php#">LISTE DES VOTANTS</a>
+        <a class="nav-link" href="http://localhost/Election/pages-admin/listeVote.php#">LISTE DES VOTANTS</a>
       </li>
       <li class="nav-item dropdown">
       <li class="nav-item">
-        <a class="nav-link" href="http://vote/Admin_Electeur/pages-admin/ajoutCandidat.php#">AJOUTE CANDIDATS</a>
+        <a class="nav-link" href="http://localhost/Election/pages-admin/ajoutCandidat.php#">AJOUTE CANDIDATS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://vote/Admin_Electeur/pages-admin/resultat.php#">RESULTATS</a>
+        <a class="nav-link" href="http://localhost/Election/pages-admin/resultat.php#">RESULTATS</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <button class="btn btn-success text-white my-2 my-sm-0 " ><a href="http://vote/Admin_Electeur/destroy.php#" class="text-white">DECONNECTER</a></button>
+      <button class="btn btn-success text-white my-2 my-sm-0 " ><a href="http://localhost/Election/destroy.php#" class="text-white">DECONNECTER</a></button>
     </form>
   </div>
 </nav>
@@ -131,7 +131,7 @@ if(isset($_SESSION['id'])){
     -->
     <?php
   }else{
-  header('Location: http://vote/Admin_Electeur/authentifi_admin.php');
+  header('Location: http://localhost/Election//authentifi_admin.php');
 }
 ?>
   </body>
