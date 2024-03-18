@@ -119,7 +119,7 @@ class Election
                         $_SESSION['prenomelecteur'] = $user_data['prenomelecteur'];
 
 
-						header("Location: vote.php");
+						header("Location: http://Election/pages-electeur/vote.php");
 
 						
 					}
@@ -207,7 +207,6 @@ class Election
                         if(!empty($_POST['id_candidat'])){
                             
                             $id_candidat = $_POST['id_candidat']; 
-                            
                             $nom = $_SESSION['nomelecteur'];
                             $prenom = $_SESSION['prenomelecteur'];
                             $idele = $_SESSION['id_electeur'];
@@ -215,7 +214,7 @@ class Election
                             $bureau = $_SESSION['bureau'];
 
                            
-                            $query = "INSERT INTO vote (id_electeur,nom_electeur,prenom_electeur,id_candidat,commune,bureau) VALUES ('$idele','$nom','$prenom','$id_candidat','$commune','$bureau')";
+                            $query = "INSERT INTO vote (nom_electeur,prenom_electeur,id_candidat,commune,bureau) VALUES ('$nom','$prenom','$id_candidat','$commune','$bureau')";
                             if ($sql = $this->conn->query($query)) {
                                  echo "<script>window.location.href = 'http://localhost/Election/index.php';</script>";
                               

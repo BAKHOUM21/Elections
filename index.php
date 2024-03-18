@@ -32,7 +32,7 @@
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <button class="btn btn-success my-2 my-sm-0 " href="http://localhost/Election/authentifi_admin.php"><a href="http://localhost/Election//authentifi_admin.php" class="text-white">CONNECTER</a></button>
+      <button class="btn btn-success my-2 my-sm-0 " href="http://localhost/Election/authentifi_admin.php"><a href="http://localhost/Election/authentifi_admin.php" class="text-light">CONNECTER</a></button>
     </form>
   </div>
 </nav>

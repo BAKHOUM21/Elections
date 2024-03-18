@@ -35,7 +35,7 @@ class Admin {
 	/* méthode de connexion Admin */
 	public function login() {
 	    $email = $_POST['email'];
-	    $password = md5($_POST['password']);
+	    $password = $_POST['password'];
 
 	    $query = "SELECT * FROM $this->adminTable WHERE email = '$email' && password = '$password'";
 	    $result = $this->con->query($query);

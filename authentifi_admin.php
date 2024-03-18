@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Create User Registration and Login using PHP Oops Concepts</title>
+  <title>ELECTION PRESIDENTIELLE 2024 AU SENEGAL</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -29,7 +29,7 @@
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <button class="btn btn-success my-2 my-sm-0 " ><a href="http://localhost/Election/authentifi_admin.php">CONNECTER</a></button>
+      <button class="btn btn-success my-2 my-sm-0 " ><a href="http://localhost/Election/authentifi_admin.php" class='text-light'>CONNECTER</a></button>
     </form>
   </div>
 </nav>

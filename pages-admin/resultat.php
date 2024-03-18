@@ -53,7 +53,7 @@ if(isset($_SESSION['id'])){
   </div>
 </nav>
 
-<div class="container class="mt-5">
+<div class="container mt-5">
 <h1 class="text-center mt-5">Resultat des votes  </h1>
 
 <?php
@@ -136,7 +136,7 @@ if(isset($_SESSION['id'])){
 
 <?php
 }else{
-  header('Location: http://localhost/Election//authentifi_admin.php');
+  header('Location: http://localhost/Election/authentifi_admin.php');
 }
 
 

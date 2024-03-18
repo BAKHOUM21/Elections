@@ -21,7 +21,7 @@ if(isset($_SESSION['id'])){
   <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">ELECTION DU SENEGAL</a>
+  <a class="navbar-brand" href="http://localhost/Election/pages-admin/acceuil.php">ELECTION DU SENEGAL</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -29,7 +29,7 @@ if(isset($_SESSION['id'])){
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">ACCUEIL</a>
+        <a class="nav-link" href="http://localhost/Election/pages-admin/acceuil.php">ACCUEIL</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="http://localhost/Election/pages-admin/listeCandidat.php#">LISTE DES CANDIDATS</a>
